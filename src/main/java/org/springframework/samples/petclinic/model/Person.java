@@ -40,16 +40,16 @@ public class Person extends BaseEntity {
 		return this.firstName;
 	}
 
-//	public void setFirstName(@Nullable String firstName) {
-//		this.firstName = firstName;
-//	}
+	public @Nullable String setFirstName(@Nullable String firstName) {
+		return this.firstName;
+	}
 
 	public @Nullable String getLastName() {
 		return this.lastName;
 	}
 
-//	public void setLastName(@Nullable String lastName) {
-//		this.lastName = lastName;
-//	}
+	public @Nullable String setLastName(@Nullable String lastName) {
+		return this.lastName;
+	}
 
 }
